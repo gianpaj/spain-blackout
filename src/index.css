@@ -1,0 +1,98 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+body,
+.app-container {
+  font-family: "Montserrat", sans-serif;
+  background: #18181a;
+  color: #eee;
+  margin: 0;
+  min-height: 100vh;
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1em;
+  gap: 2em;
+}
+.map-wrapper {
+  box-shadow: 0 2px 18px #0005;
+  border-radius: 16px;
+  overflow: hidden;
+}
+aside {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  min-width: 230px;
+}
+.info-panel {
+  max-width: 700px;
+  text-align: center;
+  margin-top: 1.5em;
+}
+.timeline-slider {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+.stats-card {
+  background: #272730;
+  color: #ffe066;
+  border-radius: 10px;
+  padding: 1em;
+  box-shadow: 0 1px 10px #0004;
+  font-size: 1.15em;
+}
+button {
+  background: #1a1a1a;
+  color: #ffe066;
+  border: none;
+  padding: 0.6em 1.2em;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.23s;
+}
+button:active {
+  background: #ffe066;
+  color: #222;
+}
+@media (max-width: 900px) {
+  .main {
+    flex-direction: column;
+    align-items: center;
+  }
+  .map-wrapper {
+    width: 98vw !important;
+    height: 50vw !important;
+    min-width: 98vw;
+  }
+  aside {
+    min-width: 180px;
+  }
+}
