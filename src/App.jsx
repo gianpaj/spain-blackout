@@ -25,6 +25,28 @@ export default function App() {
           />
         </aside>
       </main>
+      <footer>
+        <div>
+          X/Twitter:{" "}
+          <a
+            href="https://x.com/gianpaj"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            @gianpaj
+          </a>
+        </div>
+        <div>
+          {"– "}
+          <a
+            href="https://github.com/gianpaj/spain-blackout"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+          </a>
+        </div>
+      </footer>
     </div>
   );
 }

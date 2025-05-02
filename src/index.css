@@ -96,3 +96,16 @@ button:active {
     min-width: 180px;
   }
 }
+
+footer {
+  font-size: small;
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  > div {
+    margin-top: 1rem;
+    margin-left: 0.25rem;
+  }
+}
